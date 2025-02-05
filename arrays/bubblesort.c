@@ -38,4 +38,6 @@ int main(){
     printf("Array After Bubble sort:\n");
     printarray(size,array);
 
+    printf("hi");
+
 }
