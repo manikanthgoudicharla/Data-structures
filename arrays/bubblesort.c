@@ -37,7 +37,4 @@ int main(){
     bubblesort(size,array);
     printf("Array After Bubble sort:\n");
     printarray(size,array);
-
-    printf("hi");
-
 }
