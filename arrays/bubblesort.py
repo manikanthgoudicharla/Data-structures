@@ -1,11 +1,12 @@
 
 def bubblesort(size,array):
      for i in range(0,size):
-          for j in range(0,size-i-1):
-               if array[j]>array[j+1]:
+          for j in range(0,(size-i)-1):
+               if(array[j]>array[j+1]):
                     temp=array[j]
                     array[j]=array[j+1]
                     array[j+1]=temp
+          
 
 def printarray(size,array):
      for i in range(0,size):
