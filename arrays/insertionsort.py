@@ -8,6 +8,7 @@ def insertionsort(array):
           array[j+1]=temp
 
 
+
 def printarray(size,array):
      for i in range(0,size):
           print(f"The {i+1} element of the Array:{array[i]}")
